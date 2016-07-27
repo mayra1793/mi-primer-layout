@@ -1,0 +1,77 @@
+li {
+	float: left;
+	list-style-type: none;
+	padding-right: 20px;
+	margin-bottom: 20px;
+	font-size: 24px;
+	display: inline-block;
+}
+
+p {
+	text-align: center;
+	font-size: 28px;
+	width: 500px;
+	margin-left: 100px;
+}
+
+.contenedor {
+	width: 700px;
+	margin: 0 auto;
+	margin-top:40px; 
+	margin-bottom: 60px;
+}
+
+.logo {
+	padding: -5px;
+	margin-bottom: 40px;
+}
+.grupo {
+	height: 500px;
+	width: 700px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.menu {
+    border: 1px solid black;
+	height: 20px;
+	margin-left: 25px;
+	margin-bottom: -5px;
+	display: inline-block;
+}
+.raya {
+	width: 70px;
+	border: 2px solid black;
+	margin: 1px;
+}
+
+.superior{
+	color:black;
+	width: 100%;
+}
+
+.cuadrado{
+	width: 740px;
+	height: 500px;
+	position: relative;
+}
+
+.nombres {
+	width:210px; 
+	height:210px;
+	margin: 15px;
+	position: relative;
+	display: inline-block;
+	-webkit-filter: brightness(55%);    
+	filter: brightness(55%);
+}
+
+.letras:before {
+	content: "Nombre y Apellido";
+	color:#FFFFFF;
+	font-family: "Times New Roman";
+	position: relative;
+	left: 78px;
+	top: 210px;
+	font-size: 15px;
+}
